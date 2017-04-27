@@ -1,0 +1,15 @@
+{
+  "name": "lifeidea-tests",
+  "version": "1.0.0",
+  "description": "e2e tests for lifeidea",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.29.0",
+    "nightwatch": "^0.9.14"
+  }
+}
