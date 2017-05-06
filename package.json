@@ -4,7 +4,8 @@
   "description": "e2e tests for lifeidea",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch"
+    "test": "nightwatch --env staging",
+    "start": "nightwatch"
   },
   "author": "Mikhail Subach",
   "license": "ISC",
