@@ -10,5 +10,10 @@ module.exports = {
     browser.url(browser.launchUrl);
     browser.expect.element('footer').text.to.not.contain('МЕТА');
     browser.end();
+  },
+  'WordPress is not mentioned': function(browser) {
+    browser.url(browser.launchUrl);
+    browser.expect.element('footer').text.to.not.contain('WordPress');
+    browser.end();
   }
 };
