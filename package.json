@@ -4,14 +4,15 @@
   "description": "e2e tests for lifeidea",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch --env staging",
+    "test": "nightwatch",
     "start": "nightwatch"
   },
   "author": "Mikhail Subach",
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^2.29.0",
-    "nightwatch": "^0.9.14"
+    "nightwatch": "^0.9.14"//,
+    //"reportportal-client": "^5.0.0"
   },
   "repository": "https://github.com/Scorpibear/lifeidea-tests"
 }
